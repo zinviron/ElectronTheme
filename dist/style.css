@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-size: 14px;
+}
+.grid {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30px auto;
+  background-color: grey;
+}
+.header {
+  background-color: green;
+}
+.main {
+  background-color: blue;
+  display: flex;
+}
+.sidebar {
+  height: 100%;
+  width: 200px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background-color: pink;
+}
+.resize-handle {
+  cursor: ew-resize;
+  width: 8px;
+}
+.content{
+  background-color: red;
+  width: 100%
+}
